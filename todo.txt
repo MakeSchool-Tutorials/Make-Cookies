@@ -1,0 +1,24 @@
+change Getting started to Making a plan
+  - User narratives decontructed into user stories
+
+Make each new step, a different user story.
+  - First one, users can make cookies.
+
+In each chapter, start with the steps you will take.
+
+kabob ID's
+
+Why put in the script at the bottom
+
+More Why's. big why's and small why's
+> [info]
+> dude man I'm an info box
+
+> Block quote...
+>
+
+> quote with code
+```var a = 99;```
+>
+
+Why we do not use jQuery in this project

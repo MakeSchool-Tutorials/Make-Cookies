@@ -23,7 +23,8 @@ Inside of index.html, please write the following:
   </body>
 </html>
 ```
-Once we have our basic boilerplate we're ready to start laying out our page.
+Once we have our basic **HTML5 boilerplate** we're ready to start laying out our page.
+
 
 # Laying out our page
 
