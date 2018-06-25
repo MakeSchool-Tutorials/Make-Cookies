@@ -36,6 +36,7 @@ This is where we will put our Javascript code for now.
 
 ```
 ...
+
   <script>
 
   </script>
@@ -82,6 +83,7 @@ First, we should create a variable that sets how many cookies will be created pe
 
 ```
   ...
+
   //set default values
   let cookieCount = 0;
   let clickPower = 1;
