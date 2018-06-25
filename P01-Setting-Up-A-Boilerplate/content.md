@@ -16,7 +16,7 @@ Inside of index.html, please write the following:
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cookie Clicker Clone</title>
+    <title>Make Cookies</title>
   </head>
   <body>
 
@@ -52,41 +52,12 @@ Next we will add in a button:
 ```
 ...
   <h1>0</h1>
-  <button>Bake Cookies</button>
+  <button>Make Cookies</button>
 ...
 ```
 We now have an element for our Cookie Count, as well as an element that helps us increment our cookies.
 
-# Adding shop items
-
-The last thing we need on our page are some shop items. Underneath our button, we should have a way to increase the power of clicking the button, as well as a few other shop items.
-
-These buttons should have labels next to them so users know what to buy, and at what price.
-
-Below our recent ```button``` tag let's add the following lines of code:
-
-```
-...
-  <button>Bake Cookies</button>
-  <hr>
-
-  <p>Power Click</p>
-  <button>50</button>
-  <p>Quantity: <span>1</span></p>
-  <hr>
-
-  <p>Grandma</p>
-  <button>2000</button>
-  <p>Quantity: <span>0</span></p>
-  <hr>
-
-  <p>Cookie Manufacturing Facility</p>
-  <button>100000</button>
-  <p>Quantity: <span>0</span></p>
-...
-```
-
-We now have some basic markup for our game. Let's take a look at it.
+Since we have some basic markup for our game. Let's take a look at it.
 
 # Checking our work
 

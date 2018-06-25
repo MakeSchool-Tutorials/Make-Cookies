@@ -4,7 +4,7 @@ slug: getting-started
 ---
 
 Conquer the universe by baking as many cookies as possible!
-In this tutorial we will be creating a Cookie Clicker Clone.
+In this tutorial we will be creating a Cookie Clicker.
 
 # Getting started
 The first thing that we need to do is create a directory for our files.
@@ -12,13 +12,13 @@ The first thing that we need to do is create a directory for our files.
 From your Terminal, navigate to where you'd like to create a new folder and execute the following command:
 
 ```
-mkdir cookie-clicker-clone
+mkdir make-cookies
 ```
 
 Navigate into the directory you just created with the command:
 
 ```
-cd cookie-clicker-clone
+cd make-cookies
 ```
 
 # Create your first file
