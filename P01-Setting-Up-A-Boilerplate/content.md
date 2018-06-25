@@ -29,15 +29,18 @@ Once we have our basic boilerplate we're ready to start laying out our page.
 
 We do our initial page layout by thinking about the different types of elements we will need for our webapp.
 
-Some of the things we might need inside of a cookie clicker clone are:
+We should do this by considering what our user narratives might be. At the beginning of projects it's good to write down as many as possible. Here are a few.
 
-- A counter that displays all of our cookies
-- A button that can increase our cookie counter
-- A few shop items
+- A user can click a button to increase their cookie count
+- A user can buy things with Cookies
+- When a user buys things with cookies, they should be able to make cookies faster
+- The game should scale up so users always have something to work for
 
 As we continue we will discover that we need more components for our game to flourish.
 
-First we will start with the counter. Nested inside the ```<body>``` element please add the following:
+We will each develop these user narratives individually.
+
+First we will start with the first narrative, which is adding a button that increases cookie count. Nested inside the ```<body>``` element please add the following:
 
 ```
 ...
