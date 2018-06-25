@@ -55,7 +55,7 @@ Inside of the ```script``` tag, let's add the following lines of code:
 let cookieCount = 0;
 ```
 
-Now we need to set the value of our ```h1``` tag to be equal to the value of our ```cookieCount``` variable.
+Now we need to set the value of our ```<h1>``` tag to be equal to the value of our ```cookieCount``` variable.
 
 We will do this first, by assigning a variable for that specific h1 tag, and then setting it's inner HTML equal to our ```cookieCount```.
 
@@ -97,15 +97,18 @@ First, we should create a variable that sets how many cookies will be created pe
 
 Now we can add an event listener that executes some code every time a user clicks on the button.
 
+Add the following lines of code right before the closing ```<script>``` tag.
+
 ```
 ...
 
-//everytime a user clicks the button, their cookies are increased by the value of their clickPower.
-cookieClicker.addEventListener("click", function() {
-  cookieCount = cookieCount + clickPower;
-  cookieCounter.innerHTML = cookieCount;
-})
+  //everytime a user clicks the button, their cookies are increased by the value of their clickPower.
+  cookieClicker.addEventListener("click", function() {
+    cookieCount = cookieCount + clickPower;
+    cookieCounter.innerHTML = cookieCount;
+  })
 
+</script>
 ```
 
 If we click our button on the webpage, we should see our number increment by 1. Feel free to change the value of clickPower to a larger number to go up more than one.
