@@ -30,7 +30,7 @@ You can do this by executing the following commands in your terminal:
 touch index.html
 ```
 
-Now all that's left to do is open ```index.html``` inside of your favorite text editor. If you use Atom, you can use the following command from your terminal:
+Now all that's left to do is open ```index.html``` inside your favorite text editor. If you use Atom, you can use the following command from your terminal:
 
 ```
 atom .
