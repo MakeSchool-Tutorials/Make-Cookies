@@ -5,7 +5,11 @@ slug: lets-make-cookies
 
 # Laying out our page
 
-First we will start with the first **user story**, which is adding a button that increases cookie count. Nested inside the ```<body>``` element please add the following:
+First we will start with the first **user story**, which we will recall is:
+
+- As a user, I can click a button to increase the number of cookies I have.
+
+Nested inside the ```<body>``` element please add the following:
 
 ```
 ...
