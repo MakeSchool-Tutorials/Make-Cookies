@@ -69,7 +69,7 @@ In javascript we tend to use **camelCase** to name our variables. When we add ID
 
 So let's append the following unique ID's to our elements:
 
-```
+```html
 <h1 id="cookie-counter">0</h1>
 <button id="cookie-clicker">Make Cookies</button>
 ```
@@ -110,7 +110,7 @@ Now we need to set the value of our ```<h1>``` tag *to be equal to* the value of
 
 We will do this by assigning a variable for that specific h1 tag, and then setting it's **inner HTML** equal to our ```cookieCount```.
 
-```
+```js
 <script>
   //set default values
   let cookieCount = 0;
