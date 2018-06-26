@@ -56,7 +56,7 @@ In this part of the tutorial we will be getting that button to work!
 
 # Adding ID's to elements
 
-In order to interact with the **DOM** in Javascript, we first need to give the elements we want to interact with unique ID's that we can target in javascript.
+In order to interact with the **DOM** in Javascript, we first need to give the elements we want to interact with **unique ID's** that we can target in javascript.
 
 Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 
