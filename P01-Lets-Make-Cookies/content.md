@@ -46,11 +46,9 @@ You should see something that looks like this:
 ![Basic Markup](./assets/first-look.png "Basic Markup")
 
 
-## Checkpoint!
+## It's javascript time!
 
 Now that we've finished creating our basic markup, we're ready to start adding some functionality to make our game work.
-
-## It's javascript time!
 
 In the last step we created an element that will display how many cookies we have and a button with no functionality.
 
