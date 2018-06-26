@@ -160,5 +160,6 @@ If we click our button on the webpage, we should see our number increment by 1. 
 
 # Onward
 
-We now have a very simple cookie clicker. It isn't very fun yet though, and players don't have much of an objective.
+Now that we've finished our first **user story** We now have a very simple cookie clicker. It isn't very fun yet though, and players don't have much of an objective.
+
 In the next section we will add a way to increase our clickPower!
