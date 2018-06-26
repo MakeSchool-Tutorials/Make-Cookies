@@ -29,13 +29,13 @@ Next we will add in a button:
 ```
 We now have an element for our Cookie Count, as well as an element that helps us increment our cookies.
 
-Since we have some basic markup for our game. Let's take a look at it.
+Since we have some basic markup for our game. Let's take a quick look at it.
 
 # Checking our work
 
-In order to view our beautiful new website, we need to open up index.html inside of a web browser.
+In order to view our beautiful new website, we need to open up **index.html** inside of a web browser.
 
-To do this, all we need to do is go to our terminal and run:
+To do this, all we need to do is go inside of our terminal and run:
 
 ```
 open index.html
@@ -57,7 +57,7 @@ In this part of the tutorial we will be getting that button to work!
 
 # Adding ID's to elements
 
-In order to interact with the DOM in Javascript, we first need to give the elements we want to interact with unique ID's that we can target in javascript.
+In order to interact with the **DOM** in Javascript, we first need to give the elements we want to interact with unique ID's that we can target in javascript.
 
 Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 
@@ -66,7 +66,7 @@ Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 <button>Make Cookies</button>
 ```
 
-In javascript we tend to use camelcase to name our variables. When we add ID's in our markup, in order to prevent any confusion, we use kabob case! Kabob-case-looks-like-this, and it's called kabob case because it look like we're sticking words together with a stick.
+In javascript we tend to use **camelCase** to name our variables. When we add ID's in our markup, in order to prevent any confusion, we use **kabob case**! Kabob-case-looks-like-this, and it's called **kabob case** because it look like we're sticking words together on a stick.
 
 So let's append the following unique ID's to our elements:
 
@@ -75,11 +75,11 @@ So let's append the following unique ID's to our elements:
 <button id="cookie-clicker">Make Cookies</button>
 ```
 
-Great. Next we will add a bit of Javascript to track our cookies.
+*Great!* Next we will add a bit of Javascript to track our cookies.
 
 # Tracking our cookies!
 
-Inside of index.html, right before the closing ```body``` tag, we will add in a ```script``` tag.
+Inside of *index.html*, right before the closing ```body``` tag, we will add in a ```script``` tag.
 
 This is where we will put our Javascript code for now.
 
@@ -96,9 +96,9 @@ We always put our script tags at the bottom of our page because we want to **mak
 
 Once we've done that we're ready to start coding some basic javascript.
 
-The first thing we should do is set the default value of our cookie count to a variable.
+The first thing we should do is set the *default value* of our cookie count to a **variable**.
 
-In this case, our default value is 0, because we start off with 0 cookies.
+In this case, **our default value is 0, because we start off with 0 cookies**.
 
 Inside of the ```script``` tag, let's add the following lines of code:
 
@@ -107,9 +107,9 @@ Inside of the ```script``` tag, let's add the following lines of code:
 let cookieCount = 0;
 ```
 
-Now we need to set the value of our ```<h1>``` tag to be equal to the value of our ```cookieCount``` variable.
+Now we need to set the value of our ```<h1>``` tag *to be equal to* the value of our ```cookieCount``` variable.
 
-We will do this first, by assigning a variable for that specific h1 tag, and then setting it's inner HTML equal to our ```cookieCount```.
+We will do this by assigning a variable for that specific h1 tag, and then setting it's **inner HTML** equal to our ```cookieCount```.
 
 ```
 <script>
@@ -128,9 +128,9 @@ We can test if this works by changing the value of ```cookieCount``` from 0, to 
 
 # Make Some Cookies!
 
-Now that we are tracking our cookieCount, we can make clicking the button increment the amount of cookies we have by 1.
+Now that we are tracking our ```cookieCount```, we can make clicking the button increment the amount of cookies we have by 1.
 
-First, we should create a variable that sets how many cookies will be created per click, and a variable that selects the element.
+First, we should **create a variable** that **sets how many cookies will be created per click**, and a **variable that selects the element**.
 
 ```
   ...
@@ -148,7 +148,7 @@ First, we should create a variable that sets how many cookies will be created pe
 
 ```
 
-Now we can add an event listener that executes some code every time a user clicks on the button.
+Now we can add an **event listener** that executes some code every time a user clicks on the button.
 
 Add the following lines of code right before the closing ```<script>``` tag.
 
@@ -164,7 +164,7 @@ Add the following lines of code right before the closing ```<script>``` tag.
 </script>
 ```
 
-If we click our button on the webpage, we should see our number increment by 1. Feel free to change the value of clickPower to a larger number to go up more than one.
+If we click our button on the webpage, we should see our number increment by 1. Feel free to change the value of ```clickPower``` to a larger number to go up more than one.
 
 # Onward
 
