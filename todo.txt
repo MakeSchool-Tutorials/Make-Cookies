@@ -1,14 +1,18 @@
-change Getting started to Making a plan
+"""change Getting started to Making a plan
   - User narratives decontructed into user stories
+"""
 
-Make each new step, a different user story.
+
+"""Make each new step, a different user story.
   - First one, users can make cookies.
-
 In each chapter, start with the steps you will take.
 
-kabob ID's
+"""
+
+""kabob ID's
 
 Why put in the script at the bottom
+""
 
 More Why's. big why's and small why's
 > [info]

@@ -62,11 +62,13 @@ Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 <button>Make Cookies</button>
 ```
 
-We will append unique ID's to these elements like this:
+In javascript we tend to use camelcase to name our variables. When we add ID's in our markup, in order to prevent any confusion, we use kabob case! Kabob-case-looks-like-this, and it's called kabob case because it look like we're sticking words together with a stick.
+
+So let's append the following unique ID's to our elements:
 
 ```
-<h1 id="cookieCounter">0</h1>
-<button id="cookieClicker">Make Cookies</button>
+<h1 id="cookie-counter">0</h1>
+<button id="cookie-clicker">Make Cookies</button>
 ```
 
 Great. Next we will add a bit of Javascript to track our cookies.
@@ -85,6 +87,8 @@ This is where we will put our Javascript code for now.
   </script>
 </body>
 ```
+
+We always put our script tags at the bottom of our page because we want to **make sure the browser loads all of our Javascript after it renders the entire page.**
 
 Once we've done that we're ready to start coding some basic javascript.
 
@@ -109,7 +113,7 @@ We will do this first, by assigning a variable for that specific h1 tag, and the
   let cookieCount = 0;
 
   //declare DOM variables
-  let cookieCounter = document.getElementById('cookieCounter');
+  let cookieCounter = document.getElementById('cookie-counter');
 
   cookieCounter.innerHTML = cookieCount;
 </script>
@@ -132,8 +136,8 @@ First, we should create a variable that sets how many cookies will be created pe
   let clickPower = 1;
 
   //declare DOM variables
-  let cookieCounter = document.getElementById('cookieCounter');
-  let cookieClicker = document.getElementById('cookieClicker');
+  let cookieCounter = document.getElementById('cookie-counter');
+  let cookieClicker = document.getElementById('cookie-clicker');
 
   ...
 </script>
