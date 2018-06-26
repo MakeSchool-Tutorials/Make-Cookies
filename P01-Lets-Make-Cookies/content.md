@@ -19,7 +19,7 @@ Nested inside the ```<body>``` element please add the following:
 </body>
 ...
 ```
-We are going to make this ```h1``` tag act as our cookie count. We will change the value with Javascript in a later step.
+We are going to make this ```<h1>``` tag act as our cookie count. We will change the value with Javascript in a later step.
 
 Next we will add in a button:
 ```
@@ -80,7 +80,7 @@ So let's append the following unique ID's to our elements:
 
 # Tracking our cookies!
 
-Inside of *index.html*, right before the closing ```body``` tag, we will add in a ```script``` tag.
+Inside of *index.html*, right before the closing ```</body>``` tag, we will add in a ```<script>``` tag.
 
 This is where we will put our Javascript code for now.
 
@@ -101,7 +101,7 @@ The first thing we should do is set the *default value* of our cookie count to a
 
 In this case, **our default value is 0, because we start off with 0 cookies**.
 
-Inside of the ```script``` tag, let's add the following lines of code:
+Nested inside of the ```<script>``` element, let's add the following lines of code:
 
 ```
 //declare default variables
