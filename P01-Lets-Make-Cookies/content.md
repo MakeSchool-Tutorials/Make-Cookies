@@ -1,8 +1,51 @@
 ---
-title: "Lets Make A Button!"
-slug: make-a-button
+title: "Lets Make Cookies!"
+slug: lets-make-cookies
 ---
 
+# Laying out our page
+
+First we will start with the first **user story**, which is adding a button that increases cookie count. Nested inside the ```<body>``` element please add the following:
+
+```
+...
+<body>
+  <h1>0</h1>
+</body>
+...
+```
+We are going to make this ```h1``` tag act as our cookie count. We will change the value with Javascript in a later step.
+
+Next we will add in a button:
+```
+...
+  <h1>0</h1>
+  <button>Make Cookies</button>
+...
+```
+We now have an element for our Cookie Count, as well as an element that helps us increment our cookies.
+
+Since we have some basic markup for our game. Let's take a look at it.
+
+# Checking our work
+
+In order to view our beautiful new website, we need to open up index.html inside of a web browser.
+
+To do this, all we need to do is go to our terminal and run:
+
+```
+open index.html
+```
+
+You should see something that looks like this:
+![Basic Markup](./assets/first-look.png "Basic Markup")
+
+
+## Checkpoint!
+
+Now that we've finished creating our basic markup, we're ready to start adding some functionality to make our game work.
+
+## It's javascript time!
 
 In the last step we created an element that will display how many cookies we have and a button with no functionality.
 
