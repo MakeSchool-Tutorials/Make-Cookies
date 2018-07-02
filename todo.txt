@@ -26,3 +26,7 @@ More Why's. big why's and small why's
 >
 
 Why we do not use jQuery in this project
+
+
+
+Add filetype to code blocks

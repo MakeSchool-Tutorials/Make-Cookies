@@ -71,7 +71,7 @@ The first thing we're going to do is add in a basic HTML Template.
 
 Inside of index.html, please write the following:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
