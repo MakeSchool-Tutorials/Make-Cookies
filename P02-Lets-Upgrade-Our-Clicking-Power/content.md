@@ -160,7 +160,7 @@ We are going to do the former so users can upgrade their clickPower to infinity!
 clickPowerLevelNumber += 1;
 
 //Update click price
-clickPowerPrice = Math.floor(clickPowerPrice * 1.33);
+clickPowerPriceAmount = Math.floor(clickPowerPriceAmount * 1.33);
 
 //refresh shop item
 refreshPowerClick();
@@ -172,7 +172,7 @@ Lets then add another line to our ```refreshPowerClick()``` function.
 
 ```js
 let refreshPowerClick = function() {
-  clickPowerLevel.innterHTML = clickPowerLevelNumber;
+  clickPowerLevel.innerHTML = clickPowerLevelNumber;
   clickPowerPrice.innerHTML = clickPowerPriceAmount;
 }
 ```
@@ -195,7 +195,7 @@ Now all that's left to do is update our ```refreshPowerClick()``` function and w
 
 ```js
 let refreshPowerClick = function() {
-  clickPowerLevel.innterHTML = clickPowerLevelNumber;
+  clickPowerLevel.innerHTML = clickPowerLevelNumber
   clickPowerPrice.innerHTML = clickPowerPriceAmount;
   clickPowerMultiple.innerHTML = clickPower;
 }
@@ -203,4 +203,4 @@ let refreshPowerClick = function() {
 # Onward
 Woohoo! That's a lot of stuff to keep track of!
 
-In the next part we will refactor some of our code to make it easier to edit, update, and read. Now is also a great time to test that your shop is working as expected. 
+In the next part we will refactor some of our code to make it easier to edit, update, and read. Now is also a great time to test that your shop is working as expected.
