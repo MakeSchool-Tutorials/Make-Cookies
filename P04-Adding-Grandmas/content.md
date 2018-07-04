@@ -161,3 +161,70 @@ let refreshGrandma = function() {
 }
 
 ```
+
+# Our first game loop!
+Now is the moment we've been waiting for. This is what seperates a bad cookie from a good cookie, and we all know that your grandma cooks the best cookies.
+
+Let's first set a default variable to the boolean False, and when it becomes true, our game loop will run.
+
+At the top of our Grandma section lets add the following:
+
+```js
+//set default values
+let grandmaAuto = false;
+```
+
+Now inside of our buy grandma code block, let's add the following code:
+
+```js
+autoGrandma = true
+autoGrandmaStart();
+
+```
+
+We declare the boolean true, and then run the ```autoGrandmaStart()``` function which we will make above the refresh grandma function.
+
+And now we will set up our game loop. We will do this with the ```window.setInterval()``` function.
+
+Here's an example of how it looks:
+
+```js
+
+window.setInterval(function(){
+  //executing code loop goes here
+}, numberOfMilliSeconds)
+
+```
+
+Now we can create our game loop! Lets use the following code:
+
+```js
+let autoGrandmaStart = function() {
+  let grandmaInt = window.setInterval(function(){
+    cookieCount = cookieCount+= grandmaPower;
+    refreshCookieCount();
+  }, 1000);
+}
+
+```
+If we test our code by using our app in the browser and buying a grandma, we will see something unexpected.
+
+Instead of increasing by our set amount of 50, we get 60 because in our code block we decided to add 10 for each level.
+
+So let's make sure that the first level stays at 50 by implementing the following line of code:
+
+```js
+let refreshGrandma = function() {
+  ...
+  grandmaMultiple.innerHTML = grandmaPower - 10;
+}
+
+```
+
+Now that should work as expected.
+
+# Onward!
+
+We've done it. We have our first game loop.
+
+In the next section we will add another game loop.
