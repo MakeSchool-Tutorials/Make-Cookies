@@ -11,7 +11,7 @@ The first thing we need to do is put some **elements** on our page to *interact 
 Let's add the following ```HTML``` underneath the previous shop item.
 
 ```HTML
-<!--------GRANDMAS-------->
+<!---GRANDMAS-------->
 <hr>
 <p>Grandmas</p>
 <p>Producing <span id="grandma-multiple">0</span> cookies per second!</p>
