@@ -14,6 +14,7 @@ Below our last ```<button>``` element will add the following HTML:
 ```html
 <hr>
 <h2>Shop</h2>
+<hr>
 ```
 We are going to create a system that allows players to purchase new upgrades, level them up, keep track of how many times they have leveled up that specific upgrade, how much many cookies they can produce.
 
