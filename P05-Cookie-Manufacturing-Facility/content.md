@@ -3,16 +3,16 @@ title: "Cookie Manufacturing Facility!"
 slug: cookie-manufacturing-facility
 ---
 
-We are now on our last user story! Don't get too ahead of yourself though, because once we have all user stories completed we'll need to check for balance, and improve pieces of code wherever we can.
+We are now on our last **user story**! Don't get too ahead of yourself though, because once we have all **user stories** completed we'll need to check for **balance**, and improve pieces of code wherever we can.
 
-The goal of developing all of our user stories is to create an absolute **minium viable product**. Once this is complete we get to focus on the things that really make a **user experience** better.
+The goal of developing all of our user stories is to create a **minium viable product**. Once this is complete we get to focus on the things that really make a **user experience** better.
 
 We will recall our final user story:
 
 - As a user, I can purchase Cookie Manufacutring Facilities that increase my number of cookies automatically.
 
 # Adding the markup
-Just like all cookies need ingredients, we will put our ingredients in our HTML to make our cookie manufacturing facility.
+Just like all cookies need ingredients, we will put our ingredients into our HTML to make our cookie manufacturing facility.
 
 ```HTML
 <!--Cookie Manufacturing Facility-->
@@ -26,9 +26,9 @@ Just like all cookies need ingredients, we will put our ingredients in our HTML 
 Great. Now we are ready to add some functionality to our facilities!
 
 # Adding functionality to our facilities
-Let's just jump right into this. We've done most of this with the other modules, and functionality wise, our facility will be the same as our grandmas, but more efficient.
+Let's just jump right into it. We've done most of this with the other modules, and functionality wise, our facility will be the same as our grandmas, but more efficient.
 
-Let's start again by defining a function and listing all of our steps inside of our ```scripts.js``` file:
+Let's start again by defining a *function* and listing all of our steps inside of our ```scripts.js``` file:
 
 ```js
 /********************************

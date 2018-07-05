@@ -64,5 +64,19 @@ Make your names unique, and adjust the prices and power levels so there's things
 # Stretch Challange
 Add some custom CSS to make your cookie clicker beautiful.
 
-# Finished
+# Onward?
+
+![Alice in Wonderland](assets/alice.jpeg "Alice in Wonderland")
+
+“Would you tell me, please, which way I ought to go from here?'
+'That depends a good deal on where you want to get to,' said the Cat.
+'I don't much care where -' said Alice.
+'Then it doesn't matter which way you go,' said the Cat.
+
+'- so long as I get SOMEWHERE,' Alice added as an explanation.
+'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.”
+― Lewis Carroll, Alice in Wonderland
+
+You're on the right path, so let's keep on walking.
+
 By completing this tutorial you should have some basic vanilla javascript DOM manipulation skills that will serve you handy in future projects.
