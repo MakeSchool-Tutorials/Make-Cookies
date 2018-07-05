@@ -76,7 +76,6 @@ Add some custom CSS to make your cookie clicker beautiful.
 'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.”  
 ― Lewis Carroll, Alice in Wonderland  
 
-### where to?
 You're on the right path, so let's keep on walking.
 
 By completing this tutorial you should have some basic vanilla javascript DOM manipulation skills that will serve you handy in future projects.
