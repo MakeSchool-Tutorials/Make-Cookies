@@ -2,7 +2,7 @@
 title: "Lets upgrade our clicking POWER!"
 slug: Lets-Upgrade-Our-Clicking-Power
 ---
-We can increase our cookie count, but there's *no goal* for our players to strive for. We need to *develop positive incentives* to continue clicking our Make Cookies button.
+We can increase our cookie count, but there's *no goal* for our players to strive for. We need to *develop positive incentives* to encourage our users to continue clicking our Make Cookies button.
 
 # Creating a shop
 We want our players to be able to trade in their cookies for various different upgrades.
