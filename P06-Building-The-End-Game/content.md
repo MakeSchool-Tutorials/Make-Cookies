@@ -80,4 +80,4 @@ Add some custom CSS to make your cookie clicker beautiful.
 
 You're on the right path, so let's keep on walking.
 
-By completing this tutorial you should have some basic vanilla javascript DOM manipulation skills that will serve you handy in future projects.
+By completing this tutorial you should have some basic vanilla JavaScript DOM manipulation skills that will serve you handy in future projects.

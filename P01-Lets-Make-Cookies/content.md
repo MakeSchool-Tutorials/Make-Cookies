@@ -19,7 +19,7 @@ Nested inside the ```<body>``` element please add the following:
 </body>
 ...
 ```
-We are going to make this ```<h1>``` tag act as our cookie count. We will change the value with Javascript in a later step.
+We are going to make this ```<h1>``` tag act as our cookie count. We will change the value with JavaScript in a later step.
 
 Next we will add in a button:
 ```
@@ -46,7 +46,7 @@ You should see something that looks like this:
 ![Basic Markup](./assets/first-look.png "Basic Markup")
 
 
-## It's javascript time!
+## It's JavaScript time!
 
 Now that we've finished creating our basic markup, we're ready to start adding some functionality to make our game work.
 
@@ -56,7 +56,7 @@ In this part of the tutorial we will be getting that button to work!
 
 # Adding ID's to elements
 
-In order to interact with the **DOM** in Javascript, we first need to give the elements we want to interact with **unique ID's** that we can target in javascript.
+In order to interact with the **DOM** in JavaScript, we first need to give the elements we want to interact with **unique ID's** that we can target in javaScript.
 
 Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 
@@ -65,7 +65,7 @@ Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 <button>Make Cookies</button>
 ```
 
-In javascript we tend to use **camelCase** to name our variables. When we add ID's in our markup, in order to prevent any confusion, we use **kabob case**! Kabob-case-looks-like-this, and it's called **kabob case** because it look like we're sticking words together on a stick.
+In JavaScript we tend to use **camelCase** to name our variables. When we add ID's in our markup, in order to prevent any confusion, we use **kabob case**! Kabob-case-looks-like-this, and it's called **kabob case** because it look like we're sticking words together on a stick.
 
 So let's append the following unique ID's to our elements:
 
@@ -74,7 +74,7 @@ So let's append the following unique ID's to our elements:
 <button id="cookie-clicker">Make Cookies</button>
 ```
 
-*Great!* Next we will add a bit of Javascript to track our cookies.
+*Great!* Next we will add a bit of JavaScript to track our cookies.
 
 # Tracking our cookies!
 
