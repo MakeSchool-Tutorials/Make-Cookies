@@ -68,12 +68,12 @@ Add some custom CSS to make your cookie clicker beautiful.
 
 ![Alice in Wonderland](assets/alice.jpeg "Alice in Wonderland")  
 “Would you tell me, please, which way I ought to go from here?'  
-'That depends a good deal on where you want to get to,' said the Cat.  
-'I don't much care where -' said Alice.  
-'Then it doesn't matter which way you go,' said the Cat.  
+"That depends a good deal on where you want to get to," said the Cat.  
+"I don't much care where -" said Alice.  
+"Then it doesn't matter which way you go," said the Cat.  
 
-'- so long as I get SOMEWHERE,' Alice added as an explanation.  
-'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.”  
+"- so long as I get SOMEWHERE," Alice added as an explanation.  
+"Oh, you're sure to do that," said the Cat, "if you only walk long enough.”  
 ― Lewis Carroll, Alice in Wonderland  
 
 You're on the right path, so let's keep on walking.
