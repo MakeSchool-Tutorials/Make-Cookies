@@ -33,7 +33,7 @@ Because we want to change some of the content inside of our **HTML**, we put in 
 Everytime we level up our Clicking Power, we want to increase the effectivness of each of our clicks by **1**, and adjust the price so it's a little bit higher.
 
 # Track our new HTML
-Inside of our ```<script>``` *element*, let's create a new **variable** under our other **efault variables** that will be used to keep track of our cookie power level.
+Inside of our ```<script>``` *element*, let's create a new **variable** under our other **default variables** that will be used to keep track of our cookie power level.
 
 ```js
 //default variables
@@ -78,7 +78,7 @@ buyClickPower.addEventListener("click", function() {
 })
 
 ```
-Now let's check our our page, hit the button, and watch what happens inside of our **developer console**. If we have enough cookies then we should get the first ```console.log``` statement. Otherwise we should get the latter.
+Now let's check out our page, hit the button, and watch what happens inside of our **developer console**. If we have enough cookies then we should get the first ```console.log``` statement. Otherwise we should get the latter.
 
 Next we can add a line of **JavaScript** to take away cookies based on the price.
 
@@ -95,7 +95,7 @@ if (cookieCount >= clickPowerPriceAmount) {
 
 We will need to use ```cookieCounter.innerHTML = cookieCount``` constantly throughout this project. So let's just turn it into a **function** that we can easily understand.
 
-At the bottom of the ```<script>``` element lets add the following lines of code:
+Before the bottom of the ```</script>``` element lets add the following lines of code:
 
 ```js
 let refreshCookieCount = function() {
@@ -152,8 +152,8 @@ We need to increase the price each time we level up.
 
 There are a few ways that we could implement this.
 
-- We could set up prices based on each level, and do so manualy. (Eg: level 1: 50, level 2: 100)
-- We could make it go up by a certain amount each level.
+- We could set up prices based on each level, manualy. (Eg: level 1: 50, level 2: 100)
+- We could make it go up by a certain amount each level by some multiple. (Eg: * 1.3)
 
 We are going to do the second one so users can upgrade their clickPower to infinity! (and BEYOND!?)
 
