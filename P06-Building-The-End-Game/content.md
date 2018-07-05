@@ -67,7 +67,7 @@ Add some custom CSS to make your cookie clicker beautiful.
 # Onward?
 
 ![Alice in Wonderland](assets/alice.jpeg "Alice in Wonderland")  
-“Would you tell me, please, which way I ought to go from here?'  
+“Would you tell me, please, which way I ought to go from here?"    
 "That depends a good deal on where you want to get to," said the Cat.  
 "I don't much care where -" said Alice.  
 "Then it doesn't matter which way you go," said the Cat.  
