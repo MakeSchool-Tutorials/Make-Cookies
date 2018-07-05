@@ -85,7 +85,7 @@ Next we can add a line of **JavaScript** to take away cookies based on the price
 ```js
 if (cookieCount >= clickPowerPriceAmount) {
   //subtract cookies from the price of the item
-  cookieCount +=  -clickPowerPriceAmount;
+  cookieCount -= clickPowerPriceAmount;
   //update cookie counter.
   cookieCounter.innerHTML = cookieCount;
 }  
@@ -116,7 +116,7 @@ cookieClicker.addEventListener("click", function() {
 ```js
 if (cookieCount >= clickPowerPriceAmount) {
   //subtract cookies from the price of the item
-  cookieCount +=  -clickPowerPriceAmount;
+  cookieCount -= clickPowerPriceAmount;
   refreshCookieCount()
 }
 ```
@@ -136,7 +136,7 @@ Now we can add these lines to our buy function:
 
 if (cookieCount >= clickPowerPriceAmount) {
   //subtract cookies from the price of the item
-  cookieCount +=  -clickPowerPriceAmount;
+  cookieCount -= clickPowerPriceAmount;
   refreshCookieCount()
 
   //Upgrade power level
@@ -171,7 +171,7 @@ refreshPowerClick();
 
 ```
 
-Lets then add another line to our ```refreshPowerClick()``` function.
+Lets then add another line to our `refreshPowerClick()` function.
 
 ```js
 let refreshPowerClick = function() {
