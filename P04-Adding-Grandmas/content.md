@@ -1,3 +1,8 @@
+---
+title: "Adding Grandmas!"
+slug: adding-grandmas
+---
+
 We are now on our third user story:
 
 - As a user, I can purchase Grandmas that increase my number of cookies automatically.
@@ -102,7 +107,7 @@ if (cookieCount >= grandmaPriceAmount) {
   refreshCookieCount()
 
   ...
-}  
+}  //DONT FORGET THIS BRACKET AT THE END OF THE ENTIRE BUY FUNCTION
 ```
 
 Now the button has some basic functionality, but let's add all the other stuff!
