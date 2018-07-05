@@ -73,9 +73,9 @@ Add some custom CSS to make your cookie clicker beautiful.
 'I don't much care where -' said Alice.  
 'Then it doesn't matter which way you go,' said the Cat.  
 
-'- so long as I get SOMEWHERE,' Alice added as an explanation.
-'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.”
-― Lewis Carroll, Alice in Wonderland
+'- so long as I get SOMEWHERE,' Alice added as an explanation.  
+'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.”  
+― Lewis Carroll, Alice in Wonderland  
 
 You're on the right path, so let's keep on walking.
 
