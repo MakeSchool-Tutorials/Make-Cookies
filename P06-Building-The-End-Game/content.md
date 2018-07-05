@@ -1,3 +1,8 @@
+---
+title: "Building The End Game!"
+slug: Building-The-End-Game
+---
+
 In the last section we finished our facility and published our initial product.
 
 However, we discovered that leveling up our shop items past a certain point no longer becomes useful. The cost of upgrading our products isn't worth the power we recieve.

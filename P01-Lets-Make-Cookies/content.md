@@ -1,6 +1,6 @@
 ---
 title: "Lets Make Cookies!"
-slug: lets-make-cookies
+slug: Lets-Make-Cookies
 ---
 Now that we've created a basic **boilerplate** we are ready to start adding some actual content to our website!
 

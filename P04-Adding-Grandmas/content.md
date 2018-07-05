@@ -1,6 +1,6 @@
 ---
 title: "Adding Grandmas!"
-slug: adding-grandmas
+slug: Adding-Grandmas
 ---
 
 We are now on our third user story:

@@ -1,6 +1,6 @@
 ---
 title: "Making A Plan!"
-slug: making-a-plan
+slug: Making-A-Plan
 ---
 
 Conquer the universe by baking as many cookies as possible!

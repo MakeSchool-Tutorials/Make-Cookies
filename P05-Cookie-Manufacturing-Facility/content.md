@@ -1,6 +1,6 @@
 ---
 title: "Cookie Manufacturing Facility!"
-slug: cookie-manufacturing-facility
+slug: Cookie-Manufacturing-Facility
 ---
 
 We are now on our last **user story**! Don't get too ahead of yourself though, because once we have all **user stories** completed we'll need to check for **balance**, and improve pieces of code wherever we can.

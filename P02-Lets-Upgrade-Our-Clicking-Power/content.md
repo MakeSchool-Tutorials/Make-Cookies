@@ -1,6 +1,6 @@
 ---
 title: "Lets upgrade our clicking POWER!"
-slug: lets-upgrade-our-clicking-power
+slug: Lets-Upgrade-Our-Clicking-Power
 ---
 We can increase our cookie count, but there's *no goal* for our players to strive for. We need to *develop positive incentives* to continue clicking our Make Cookies button.
 

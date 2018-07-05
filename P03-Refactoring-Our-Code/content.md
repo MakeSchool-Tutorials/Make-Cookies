@@ -1,6 +1,6 @@
 ---
 title: "Refactoring Our Code!"
-slug: refactoring-our-code
+slug: Refactoring-Our-Code
 ---
 
 In the last section we got our first shop item working. In this section we will be making it easier to add new code by seperating everything into seperate files.
