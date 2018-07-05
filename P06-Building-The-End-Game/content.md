@@ -61,13 +61,12 @@ In order to complete this tutorial, you will need to create a shop item (or two)
 
 Make your names unique, and adjust the prices and power levels so there's things to do after purchasing the cookie manufacturing facility.
 
-# Stretch Challange
+## Stretch Challange
 Add some custom CSS to make your cookie clicker beautiful.
 
 # Onward?
 
 ![Alice in Wonderland](assets/alice.jpeg "Alice in Wonderland")
-### where to?
 “Would you tell me, please, which way I ought to go from here?'  
 'That depends a good deal on where you want to get to,' said the Cat.  
 'I don't much care where -' said Alice.  
@@ -77,6 +76,7 @@ Add some custom CSS to make your cookie clicker beautiful.
 'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.”  
 ― Lewis Carroll, Alice in Wonderland  
 
+### where to?
 You're on the right path, so let's keep on walking.
 
 By completing this tutorial you should have some basic vanilla javascript DOM manipulation skills that will serve you handy in future projects.
