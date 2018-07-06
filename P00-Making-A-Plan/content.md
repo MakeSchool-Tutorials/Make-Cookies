@@ -8,8 +8,8 @@ In this tutorial we will be creating a Cookie Clicker.
 
 # Making A Plan
 <blockquote>
-The White Rabbit put on his spectacles. “Where shall I begin, if it please your Majesty?” he asked.
-
+The White Rabbit put on his spectacles. “Where shall I begin, if it please your Majesty?” he asked.  
+  
 “Begin at the beginning,” the King said very gravely, “and go on till you come to the end: then stop.”
 </blockquote>
 Just like Alice in Wonderland, in order to avoid endless rabbit holes it's important as software developers that we make a plan before we start coding.
