@@ -97,7 +97,7 @@ Now all we have to do is go through and add in the code.
 ```js
 //make sure we have enough cookies
 if (cookieCount >= facilityPriceAmount) {
-  cookieCount +=  - facilityPriceAmount;
+  cookieCount -= facilityPriceAmount;
   refreshCookieCount()
 
   //upgrade power level
@@ -154,7 +154,7 @@ It's time to set up our game loop:
 //game loop
 let autoFacilityStart = function() {
     let facilityInt = window.setInterval(function(){
-      cookieCount = cookieCount+= facilityPower;
+      cookieCount += facilityPower;
       refreshCookieCount();
     }, 1000);
 }
