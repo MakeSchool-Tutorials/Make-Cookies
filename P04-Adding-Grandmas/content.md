@@ -206,7 +206,7 @@ Now we can create our **game loop**! Lets use the following code:
 ```js
 let autoGrandmaStart = function() {
   let grandmaInt = window.setInterval(function(){
-    cookieCount = cookieCount+= grandmaPower;
+    cookieCount += grandmaPower;
     refreshCookieCount();
   }, 1000);
 }
@@ -216,7 +216,11 @@ If we test our code by using our app in the browser and buying a grandma, we wil
 
 Instead of increasing by our set amount of 50, we get 60 because in our code block we decided to add 10 for each level.
 
-So let's make sure that the first level stays at 50 by implementing the following line of code inside our ```refreshGrandma()``` function:
+So let's make sure that the first level stays at 50 by implementing the following line of code inside our 
+
+```refreshGrandma()``` 
+
+function:
 
 ```js
 let refreshGrandma = function() {
