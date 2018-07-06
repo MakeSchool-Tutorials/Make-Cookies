@@ -73,7 +73,9 @@ Add some custom CSS to make your cookie clicker beautiful.
 
 # Onward?
 
-![Alice in Wonderland](assets/alice.jpeg "Alice in Wonderland")  
+![Alice in Wonderland](assets/alice.jpeg "Alice in Wonderland") 
+
+<blockquote>
 “Would you tell me, please, which way I ought to go from here?"    
 "That depends a good deal on where you want to get to," said the Cat.  
 "I don't much care where -" said Alice.  
@@ -84,5 +86,6 @@ Add some custom CSS to make your cookie clicker beautiful.
 ― Lewis Carroll, Alice in Wonderland  
 
 You're on the right path, so let's keep on walking.
+</blockquote>
 
 By completing this tutorial you should have some basic vanilla JavaScript DOM manipulation skills that will serve you handy in future projects.
