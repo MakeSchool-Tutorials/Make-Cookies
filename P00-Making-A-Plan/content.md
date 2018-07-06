@@ -10,6 +10,7 @@ In this tutorial we will be creating a Cookie Clicker.
 The White Rabbit put on his spectacles. “Where shall I begin, if it please your Majesty?” he asked.  
   
 “Begin at the beginning,” the King said very gravely, “and go on till you come to the end: then stop.”
+
 Just like Alice in Wonderland, in order to avoid endless rabbit holes it's important as software developers that we make a plan before we start coding.
 
 One of the best things to do before starting a project is to write down some **user stories**. A user story is a tool used in *Agile software development* to capture a description of a software feature from an end-user perspective. The **user story** describes the type of *user*, what they want and *why*. A **user story** helps to create a simplified description of a requirement.
