@@ -110,8 +110,7 @@ if (cookieCount >= facilityPriceAmount) {
 
   //refresh shop item
 
-    }//DONT FORGET THIS BRACKET
-  }
+  }//DONT FORGET THIS BRACKET
 })
 
 ```
@@ -129,7 +128,7 @@ facilityPriceAmount = Math.floor(facilityPriceAmount * 1.33);
 facilityPower += 600;
 
 //turn autoFacility on!
-autoFacility = true
+facilityAuto = true
 autoFacilityStart();
 
 //refresh shop item
