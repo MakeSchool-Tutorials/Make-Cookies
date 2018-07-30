@@ -12,7 +12,7 @@ First we will start with the first **user story**, which we will recall is:
 
 Nested inside the ```<body>``` element please add the following:
 
-```
+```HTML
 ...
 <body>
   <h1>0</h1>
@@ -22,7 +22,7 @@ Nested inside the ```<body>``` element please add the following:
 We are going to make this ```<h1>``` tag act as our cookie count. We will change the value with JavaScript in a later step.
 
 Next we will add in a button:
-```
+```HTML
 ...
   <h1>0</h1>
   <button>Make Cookies</button>
@@ -60,7 +60,7 @@ In order to interact with the **DOM** in JavaScript, we first need to give the e
 
 Inside of index.html, let's locate our ```<h1>``` and ```<button>``` elements.
 
-```
+```HTML
 <h1>0</h1>
 <button>Make Cookies</button>
 ```
@@ -82,7 +82,7 @@ Inside of *index.html*, right before the closing ```</body>``` tag, we will add 
 
 This is where we will put our Javascript code for now.
 
-```
+```js
 ...
 
   <script>
@@ -101,7 +101,7 @@ In this case, **our default value is 0, because we start off with 0 cookies**.
 
 Nested inside of the ```<script>``` element, let's add the following lines of code:
 
-```
+```js
 //declare default variables
 let cookieCount = 0;
 ```
@@ -131,7 +131,7 @@ Now that we are tracking our ```cookieCount```, we can make clicking the button 
 
 First, we should **create a variable** that **sets how many cookies will be created per click**, and a **variable that selects the element**.
 
-```
+```js
   ...
 
 //declare default variables
@@ -151,7 +151,7 @@ Now we can add an **event listener** that executes some code every time a user c
 
 Add the following lines of code right before the closing ```<script>``` tag.
 
-```
+```js
 ...
 
   //everytime a user clicks the button, their cookies are increased by the value of their clickPower.
