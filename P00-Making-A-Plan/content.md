@@ -17,7 +17,7 @@ One of the best things to do before starting a project is to write down some **u
 
 When we are ready to begin coding, we develop these users stories one at a time, *from beginning to end*.
 
-Here is are a few user stories for **Make Cookies**:
+Here are a few user stories for **Make Cookies**:
 
 - As a user, I can click a button to increase the number of cookies I have.
 - As a user, I can increase how effective my button clicks are by purchasing upgrades with my cookies.
