@@ -18,7 +18,7 @@ Below our last ```<button>``` **element** will add the following ```HTML```:
 ```
 Lets consider for a moment everything we will need.
 
-We need **markup** that allows players to purchase new upgrades, level them up, keep track of how many times they have leveled up that specific upgrade, and how much many cookies they can produce.
+We need **markup** that allows players to purchase new upgrades, level them up, keep track of how many times they have leveled up that specific upgrade, and how many cookies they can produce.
 
 Let's add the following ```HTML``` to keep track of all that stuff.
 
