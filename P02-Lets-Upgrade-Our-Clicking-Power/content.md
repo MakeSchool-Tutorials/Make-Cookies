@@ -80,7 +80,7 @@ buyClickPower.addEventListener("click", function() {
 ```
 Now let's check out our page, hit the button, and watch what happens inside of our **developer console**. If we have enough cookies then we should get the first ```console.log``` statement. Otherwise we should get the latter.
 
-Next we can add a line of **JavaScript** to take away cookies based on the price.
+Next we can add a few lines of **JavaScript** to take away cookies based on the price.
 
 ```js
 if (cookieCount >= clickPowerPriceAmount) {
