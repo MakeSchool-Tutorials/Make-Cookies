@@ -12,7 +12,7 @@ We will recall our final user story:
 - As a user, I can purchase Cookie Manufacutring Facilities that increase my number of cookies automatically.
 
 # Adding the markup
-Just like all cookies need ingredients, we will put our ingredients into our HTML to make our cookie manufacturing facility.
+Just like all cookies need ingredients, we will put our ingredients into our HTML to make our cookie manufacturing facility. Put this right beneath the grandma markup.
 
 ```HTML
 <!--Cookie Manufacturing Facility-->
