@@ -100,14 +100,18 @@ To make sure we have enough cookies, we need to *compare* our cookies with the p
 We can do that with this block of code:
 
 ```js
-//make sure we have enough cookies and subtract our cookies from the price
-if (cookieCount >= grandmaPriceAmount) {
-  //subtract cookies from the price of the item
-  cookieCount +=  - grandmaPriceAmount;
-  refreshCookieCount()
+ // Make sure we have enough cookies and subtract our cookies from the price.
+ if (cookieCount >= grandmaPriceAmount) {
+   // Subtract cookies from the price of the item.
+   cookieCount +=  - grandmaPriceAmount;
+   refreshCookieCount()
 
-  ...
-}  //DONT FORGET THIS BRACKET AT THE END OF THE ENTIRE BUY FUNCTION
+   // Upgrade power level.
+
+   // Update price.
+
+   ...
+ }
 ```
 
 Now the button has some basic functionality, but let's add all the other stuff!
