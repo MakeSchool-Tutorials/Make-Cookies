@@ -112,7 +112,7 @@ We will do this by assigning a variable for that specific h1 tag, and then setti
 
 ```js
 <script>
-//set default variables
+//declare default variables
 let cookieCount = 0;
 
   //declare DOM variables
@@ -134,7 +134,7 @@ First, we should **create a variable** that **sets how many cookies will be crea
 ```
   ...
 
-  //set default values
+//declare default variables
   let cookieCount = 0;
   let clickPower = 1;
 
