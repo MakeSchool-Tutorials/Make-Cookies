@@ -112,8 +112,8 @@ We will do this by assigning a variable for that specific h1 tag, and then setti
 
 ```js
 <script>
-  //set default values
-  let cookieCount = 0;
+//set default variables
+let cookieCount = 0;
 
   //declare DOM variables
   let cookieCounter = document.getElementById('cookie-counter');
