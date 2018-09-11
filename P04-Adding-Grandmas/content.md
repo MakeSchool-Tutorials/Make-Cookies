@@ -222,7 +222,7 @@ Instead of increasing by our set amount of 50, we get 60 because in our code blo
 
 So let's make sure that the first level stays at 50 by implementing the following line of code inside our 
 
-```refreshGrandma()``` 
+`refreshGrandma()`
 
 function:
 
