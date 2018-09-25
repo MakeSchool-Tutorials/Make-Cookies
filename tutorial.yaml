@@ -1,7 +1,6 @@
-title: "Cookie Clicker Clone"
+title: "Make Cookies"
 cover: cover.png
 solution_url: https://github.com/joerez/cookie-clicker
 teaser_text: |
     Learn how to manipulate the DOM with
-    Vanilla Javascript by building a
-    Cookie Clicker Clone
+    Vanilla Javascript by building a cookie making factory.
