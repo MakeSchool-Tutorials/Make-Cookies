@@ -125,7 +125,7 @@ Great! Now we need to update our click power level. Let's create a **function** 
 
 ```js
 let refreshPowerClick = function() {
-  clickPowerLevel.innterHTML = clickPowerLevelNumber;
+  clickPowerLevel.innerHTML = clickPowerLevelNumber;
 }
 
 ```
